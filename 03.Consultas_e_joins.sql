@@ -44,7 +44,8 @@ INNER JOIN
 /*
 	Esta consulta fornece informações sobre os pagamentos efetuados, incluindo o valor pago, a data do pagamento e a descrição do tratamento associado 
 */
-SELECT
+use odontovida;
+SELECT 
 	p.pagamento_id,
     t.descricao AS tratamento_descricao,
     p.valor AS valor_pago,
